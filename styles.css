@@ -18,6 +18,10 @@ body {
 
 #owner_picture {
   border-radius: 10%;
+  background: url("images/seema_sucheta.jpg") no-repeat;
+  height: 450px;
+  width: 450px;
+  margin-right: 30px;
 }
 
 #phone {
@@ -31,7 +35,7 @@ body {
 }
 
 #logo {
-  background: url("araina_logo.jpg") no-repeat;
+  background: url("images/araina_logo.jpg") no-repeat;
   height: 500px;
   width: 100%;
   background-position:center ;
@@ -117,12 +121,12 @@ body {
 }
 
 #instagram-tile {
-  background: url('instagram.jpg') no-repeat;
+  background: url('images/instagram.jpg') no-repeat;
   background-position: center;
 }
 
 #facebook-tile {
-  background: url('facebook.jpg') no-repeat;
+  background: url('images/facebook.jpg') no-repeat;
   background-position: center;
 }
 
@@ -178,37 +182,14 @@ body {
   }
 }
 
-
-/* END HOME PAGE */
-
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .container .jumbotron {
-    background: url('../images/jumbotron_1200.jpg') no-repeat;
-    height: 675px;
-  }
+  
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
-  /* Header */
-  #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
-    height: 100px;
-    margin: 5px 5px 5px 0;
-  }
-
-  /* End Header */
-
-  /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
-    height: 558px;
-  }
-
-  /* End Home Page */
 }
 
 /********** Small devices only **********/
@@ -278,10 +259,19 @@ body {
   }
 
   #logo {
-    background: url("araina_logo-xs.jpg") no-repeat;
+    background: url("images/araina_logo-xs.jpg") no-repeat;
     height: 300px;
     width: 100%;
     background-position:center ;
+  }
+
+  #owner_picture {
+    border-radius: 10%;
+    background: url("images/seema_sucheta.jpg") no-repeat;
+    height: 350px;
+    width: 450px;
+    margin-bottom: 20px;
+    align-items: center;
   }
 }
 
